@@ -158,14 +158,6 @@ hr {
   padding: 20px;
 }
 
-#social-section ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 22px;
-  border: 1px solid white;
-  padding: 5px 20px;
-}
-
 #social-section ul li a:hover {
   color: #aa2f2f;
   font-size: 23px;
@@ -228,6 +220,7 @@ hr {
     height: 400px;
     margin-top: 20px;
   }
+
   #hr-before-footer {
     width: 814px;
   }
