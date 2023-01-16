@@ -17,7 +17,7 @@ body {
 
 #navbar ul {
   display: flex;
-  margin: 0px 40px;
+  margin: 0 40px;
   list-style: none;
 }
 
@@ -27,6 +27,14 @@ body {
   font-size: 25px;
   text-decoration: none;
   padding: 20px;
+}
+
+#social-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid white;
+  padding: 5px 20px;
 }
 
 #navbar a:hover {
@@ -89,7 +97,7 @@ hr {
 
 #projects .project-tile #profile-link:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 #projects .project-tile #profile-link img {
@@ -116,7 +124,7 @@ hr {
 #show-all-button:hover {
   background-color: #aa2f2f;
   border: 1px solid #aa2f2f;
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
@@ -167,7 +175,7 @@ hr {
 #hr-before-footer {
   width: 100%;
   border: 3px solid #aa2f2f;
-  margin: 0px;
+  margin: 0;
 }
 
 #footer-section {
@@ -191,7 +199,7 @@ hr {
   }
 
   #navbar ul {
-    margin: 0px 15px;
+    margin: 0 15px;
   }
 
   #projects {
@@ -220,7 +228,6 @@ hr {
     height: 400px;
     margin-top: 20px;
   }
-  
   #hr-before-footer {
     width: 814px;
   }
